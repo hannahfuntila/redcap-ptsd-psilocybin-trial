@@ -1,4 +1,4 @@
-Veterans PTSD Psilocybin-Assisted Therapy - REDCap Database
+# Veterans PTSD Psilocybin-Assisted Therapy - REDCap Database
 
 Project Note
 This is an educational portfolio project demonstrating REDCap database design 
