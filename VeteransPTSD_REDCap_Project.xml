@@ -1,0 +1,1526 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Veterans PTSD: Psilocybin Safety &amp; Therapeutic Monitoring (Mock Study)" AsOfDateTime="2026-07-06T21:35:30" CreationDateTime="2026-07-06T21:35:30" SourceSystem="REDCap" SourceSystemVersion="17.0.0">
+<Study OID="Project.VeteransPTSDPsilocybinSafetyTh">
+<GlobalVariables>
+	<StudyName>Veterans PTSD: Psilocybin Safety &amp; Therapeutic Monitoring (Mock Study)</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "Veterans PTSD: Psilocybin Safety &amp; Therapeutic Monitoring (Mock Study)".</StudyDescription>
+	<ProtocolName>Veterans PTSD: Psilocybin Safety &amp; Therapeutic Monitoring (Mock Study)</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel></redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SecondaryUniqueFieldDisplayValue>1</redcap:SecondaryUniqueFieldDisplayValue>
+	<redcap:SecondaryUniqueFieldDisplayLabel>1</redcap:SecondaryUniqueFieldDisplayLabel>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>0</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:SurveyParticipantIdentifiers>0</redcap:SurveyParticipantIdentifiers>
+	<redcap:RandomizationEnabled>0</redcap:RandomizationEnabled>
+	<redcap:DisplayTodayNowButton>1</redcap:DisplayTodayNowButton>
+	<redcap:PreventBranchingEraseValues>0</redcap:PreventBranchingEraseValues>
+	<redcap:RequireChangeReason>0</redcap:RequireChangeReason>
+	<redcap:DataHistoryPopup>1</redcap:DataHistoryPopup>
+	<redcap:OrderRecordsByField></redcap:OrderRecordsByField>
+	<redcap:taskCompleteStatus>2</redcap:taskCompleteStatus>
+	<redcap:DataResolutionWorkflowEnabled>1</redcap:DataResolutionWorkflowEnabled>
+	<redcap:FieldCommentLogOptionEditDelete>1</redcap:FieldCommentLogOptionEditDelete>
+	<redcap:DataResolutionWorkflowHideClosedQueries>1</redcap:DataResolutionWorkflowHideClosedQueries>
+	<redcap:MyCapEnabled>0</redcap:MyCapEnabled>
+	<redcap:Purpose>0</redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes></redcap:ProjectNotes>
+	<redcap:SurveyQueueCustomText></redcap:SurveyQueueCustomText>
+	<redcap:SurveyQueueHide>0</redcap:SurveyQueueHide>
+	<redcap:SurveyAuthEnabled>0</redcap:SurveyAuthEnabled>
+	<redcap:SurveyAuthField1></redcap:SurveyAuthField1>
+	<redcap:SurveyAuthEvent1></redcap:SurveyAuthEvent1>
+	<redcap:SurveyAuthField2></redcap:SurveyAuthField2>
+	<redcap:SurveyAuthEvent2></redcap:SurveyAuthEvent2>
+	<redcap:SurveyAuthField3></redcap:SurveyAuthField3>
+	<redcap:SurveyAuthEvent3></redcap:SurveyAuthEvent3>
+	<redcap:SurveyAuthMinFields></redcap:SurveyAuthMinFields>
+	<redcap:SurveyAuthApplyAllSurveys>1</redcap:SurveyAuthApplyAllSurveys>
+	<redcap:SurveyAuthCustomMessage></redcap:SurveyAuthCustomMessage>
+	<redcap:SurveyAuthFailLimit></redcap:SurveyAuthFailLimit>
+	<redcap:SurveyAuthFailWindow></redcap:SurveyAuthFailWindow>
+	<redcap:DataMartProjectEnabled>0</redcap:DataMartProjectEnabled>
+	<redcap:DatamartAllowRepeatRevision>0</redcap:DatamartAllowRepeatRevision>
+	<redcap:DatamartAllowCreateRevision>0</redcap:DatamartAllowCreateRevision>
+	<redcap:DatamartCronEnabled>0</redcap:DatamartCronEnabled>
+	<redcap:HideFilledForms>1</redcap:HideFilledForms>
+	<redcap:HideDisabledForms>0</redcap:HideDisabledForms>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText></redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+	<redcap:MycapProjectsGroup>
+		<redcap:MycapProjects/>
+	</redcap:MycapProjectsGroup>
+	<redcap:MycapThemesGroup>
+		<redcap:MycapThemes/>
+	</redcap:MycapThemesGroup>
+	<redcap:MultilanguageSettingsGroup>
+		<redcap:MultilanguageSettings settings="YToyMzp7czo3OiJ2ZXJzaW9uIjtzOjY6IjE3LjAuMCI7czo1OiJsYW5ncyI7YTowOnt9czo5OiJwcm9qZWN0SWQiO3M6NToiNzc5MjQiO3M6MTU6ImRlc2lnbmF0ZWRGaWVsZCI7czowOiIiO3M6Njoic3RhdHVzIjtzOjQ6InByb2QiO3M6NToiZGVidWciO2I6MDtzOjEzOiJhZG1pbi1lbmFibGVkIjtiOjA7czoxNDoiYWRtaW4tZGlzYWJsZWQiO2I6MDtzOjE1OiJhbGxvdy1mcm9tLWZpbGUiO2I6MDtzOjE4OiJhbGxvdy1mcm9tLXNjcmF0Y2giO2I6MDtzOjIxOiJvcHRpb25hbC1zdWJzY3JpcHRpb24iO2I6MDtzOjE4OiJhbGxvdy11aS1vdmVycmlkZXMiO2I6MDtzOjc6InJlZkxhbmciO3M6MDoiIjtzOjEyOiJmYWxsYmFja0xhbmciO3M6MDoiIjtzOjg6ImRpc2FibGVkIjtiOjA7czoyNToiaGlnaGxpZ2h0TWlzc2luZ0RhdGFlbnRyeSI7YjowO3M6MjI6ImhpZ2hsaWdodE1pc3NpbmdTdXJ2ZXkiO2I6MDtzOjIxOiJhdXRvRGV0ZWN0QnJvd3NlckxhbmciO2I6MDtzOjEyOiJhbGVydFNvdXJjZXMiO2E6MDp7fXM6MTA6ImFzaVNvdXJjZXMiO2E6MDp7fXM6MTQ6ImV4Y2x1ZGVkQWxlcnRzIjthOjA6e31zOjE0OiJleGNsdWRlZEZpZWxkcyI7YTowOnt9czoxNjoiZXhjbHVkZWRTZXR0aW5ncyI7YTowOnt9fQ=="/>
+	</redcap:MultilanguageSettingsGroup>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.VeteransPTSDPsilocybinSafetyTh_2026-07-06_2135" Name="Veterans PTSD: Psilocybin Safety &amp; Therapeutic Monitoring (Mock Study)" redcap:RecordIdField="subject_id">
+	<Protocol>
+		<StudyEventRef StudyEventOID="Event.baseline_arm_1" OrderNumber="1" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.dosing_day_arm_1" OrderNumber="2" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.postsession_day_1_arm_1" OrderNumber="3" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.postsession_week_1_arm_1" OrderNumber="4" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.postsession_month_arm_1" OrderNumber="5" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.postsession_month_arm_1b" OrderNumber="6" Mandatory="No"/>
+	</Protocol>
+	<StudyEventDef OID="Event.baseline_arm_1" Name="Baseline" Type="Common" Repeating="No" redcap:EventName="Baseline" redcap:CustomEventLabel="" redcap:UniqueEventName="baseline_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="1" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.baseline_demographics" OrderNumber="1" Mandatory="No" redcap:FormName="baseline_demographics"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.dosing_day_arm_1" Name="Dosing Day" Type="Common" Repeating="No" redcap:EventName="Dosing Day" redcap:CustomEventLabel="" redcap:UniqueEventName="dosing_day_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="2" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.dosing_day_session" OrderNumber="1" Mandatory="No" redcap:FormName="dosing_day_session"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.postsession_day_1_arm_1" Name="Post-Session Day 1" Type="Common" Repeating="No" redcap:EventName="Post-Session Day 1" redcap:CustomEventLabel="" redcap:UniqueEventName="postsession_day_1_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="3" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.safety_checkin" OrderNumber="1" Mandatory="No" redcap:FormName="safety_checkin"/>
+		<FormRef FormOID="Form.ptsd_followup_assessment" OrderNumber="2" Mandatory="No" redcap:FormName="ptsd_followup_assessment"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.postsession_week_1_arm_1" Name="Post-Session Week 1" Type="Common" Repeating="No" redcap:EventName="Post-Session Week 1" redcap:CustomEventLabel="" redcap:UniqueEventName="postsession_week_1_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="4" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.safety_checkin" OrderNumber="1" Mandatory="No" redcap:FormName="safety_checkin"/>
+		<FormRef FormOID="Form.ptsd_followup_assessment" OrderNumber="2" Mandatory="No" redcap:FormName="ptsd_followup_assessment"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.postsession_month_arm_1" Name="Post-Session Month 1" Type="Common" Repeating="No" redcap:EventName="Post-Session Month 1" redcap:CustomEventLabel="" redcap:UniqueEventName="postsession_month_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="5" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.safety_checkin" OrderNumber="1" Mandatory="No" redcap:FormName="safety_checkin"/>
+		<FormRef FormOID="Form.ptsd_followup_assessment" OrderNumber="2" Mandatory="No" redcap:FormName="ptsd_followup_assessment"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.postsession_month_arm_1b" Name="Post-Session Month 3" Type="Common" Repeating="No" redcap:EventName="Post-Session Month 3" redcap:CustomEventLabel="" redcap:UniqueEventName="postsession_month_arm_1b" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="6" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.safety_checkin" OrderNumber="1" Mandatory="No" redcap:FormName="safety_checkin"/>
+		<FormRef FormOID="Form.ptsd_followup_assessment" OrderNumber="2" Mandatory="No" redcap:FormName="ptsd_followup_assessment"/>
+	</StudyEventDef>
+	<FormDef OID="Form.baseline_demographics" Name="baseline_demographics" Repeating="No" redcap:FormName="baseline_demographics">
+		<ItemGroupRef ItemGroupOID="baseline_demographics.subject_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="baseline_demographics.baseline_bp_systolic" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="baseline_demographics.baseline_bp_diastolic" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="baseline_demographics.pcl5_b1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="baseline_demographics.pcl5_b2" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="baseline_demographics.baseline_demographics_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.dosing_day_session" Name="dosing_day_session" Repeating="No" redcap:FormName="dosing_day_session">
+		<ItemGroupRef ItemGroupOID="dosing_day_session.session_start_time" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="dosing_day_session.psilocybin_dose_mg" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="dosing_day_session.sae_during_session" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="dosing_day_session.sae_type_dosing" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="dosing_day_session.dosing_day_session_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.safety_checkin" Name="safety_checkin" Repeating="No" redcap:FormName="safety_checkin">
+		<ItemGroupRef ItemGroupOID="safety_checkin.days_post_session" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="safety_checkin.sae_since_contact" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="safety_checkin.sae_type_followup" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="safety_checkin.safety_checkin_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.ptsd_followup_assessment" Name="ptsd_followup_assessment" Repeating="No" redcap:FormName="ptsd_followup_assessment">
+		<ItemGroupRef ItemGroupOID="ptsd_followup_assessment.pcl5_fu_b1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="ptsd_followup_assessment.pcl5_fu_b2" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="ptsd_followup_assessment.phq2_interest" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="ptsd_followup_assessment.phq2_depressed" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="ptsd_followup_assessment.ptsd_followup_assessment_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="baseline_demographics.subject_id" Name="baseline_demographics" Repeating="No">
+		<ItemRef ItemOID="subject_id" Mandatory="No" redcap:Variable="subject_id"/>
+		<ItemRef ItemOID="baseline_visit_date" Mandatory="Yes" redcap:Variable="baseline_visit_date"/>
+		<ItemRef ItemOID="age_years" Mandatory="Yes" redcap:Variable="age_years"/>
+		<ItemRef ItemOID="military_branch" Mandatory="Yes" redcap:Variable="military_branch"/>
+		<ItemRef ItemOID="years_active_service" Mandatory="Yes" redcap:Variable="years_active_service"/>
+		<ItemRef ItemOID="ptsd_diagnosis_date" Mandatory="Yes" redcap:Variable="ptsd_diagnosis_date"/>
+		<ItemRef ItemOID="military_sexual_trauma" Mandatory="Yes" redcap:Variable="military_sexual_trauma"/>
+		<ItemRef ItemOID="prior_psychedelic_exposure" Mandatory="Yes" redcap:Variable="prior_psychedelic_exposure"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="baseline_demographics.baseline_bp_systolic" Name="BASELINE SAFETY ASSESSMENT" Repeating="No">
+		<ItemRef ItemOID="baseline_bp_systolic" Mandatory="Yes" redcap:Variable="baseline_bp_systolic"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="baseline_demographics.baseline_bp_diastolic" Name="baseline_demographics" Repeating="No">
+		<ItemRef ItemOID="baseline_bp_diastolic" Mandatory="Yes" redcap:Variable="baseline_bp_diastolic"/>
+		<ItemRef ItemOID="baseline_heart_rate" Mandatory="Yes" redcap:Variable="baseline_heart_rate"/>
+		<ItemRef ItemOID="baseline_temperature_f" Mandatory="Yes" redcap:Variable="baseline_temperature_f"/>
+		<ItemRef ItemOID="current_psych_meds___1" Mandatory="Yes" redcap:Variable="current_psych_meds"/>
+		<ItemRef ItemOID="current_psych_meds___2" Mandatory="Yes" redcap:Variable="current_psych_meds"/>
+		<ItemRef ItemOID="current_psych_meds___3" Mandatory="Yes" redcap:Variable="current_psych_meds"/>
+		<ItemRef ItemOID="current_psych_meds___4" Mandatory="Yes" redcap:Variable="current_psych_meds"/>
+		<ItemRef ItemOID="current_psych_meds___5" Mandatory="Yes" redcap:Variable="current_psych_meds"/>
+		<ItemRef ItemOID="current_psych_meds___6" Mandatory="Yes" redcap:Variable="current_psych_meds"/>
+		<ItemRef ItemOID="current_psych_meds___7" Mandatory="Yes" redcap:Variable="current_psych_meds"/>
+		<ItemRef ItemOID="substance_use_30days" Mandatory="Yes" redcap:Variable="substance_use_30days"/>
+		<ItemRef ItemOID="baseline_suicidal_ideation" Mandatory="Yes" redcap:Variable="baseline_suicidal_ideation"/>
+		<ItemRef ItemOID="medical_contraindications" Mandatory="Yes" redcap:Variable="medical_contraindications"/>
+		<ItemRef ItemOID="cleared_for_participation" Mandatory="Yes" redcap:Variable="cleared_for_participation"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="baseline_demographics.pcl5_b1" Name="PTSD CHECKLIST FOR DSM-5 (PCL-5) - BASELINE
+Below are 20 statements about PTSD symptoms. Rate each on a scale from 0 (Not at all) to 4 (Extremely). Base your responses on your worst month of PTSD symptoms in the past month." Repeating="No">
+		<ItemRef ItemOID="pcl5_b1" Mandatory="Yes" redcap:Variable="pcl5_b1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="baseline_demographics.pcl5_b2" Name="baseline_demographics" Repeating="No">
+		<ItemRef ItemOID="pcl5_b2" Mandatory="Yes" redcap:Variable="pcl5_b2"/>
+		<ItemRef ItemOID="pcl5_b3" Mandatory="Yes" redcap:Variable="pcl5_b3"/>
+		<ItemRef ItemOID="pcl5_b4" Mandatory="Yes" redcap:Variable="pcl5_b4"/>
+		<ItemRef ItemOID="pcl5_b5" Mandatory="Yes" redcap:Variable="pcl5_b5"/>
+		<ItemRef ItemOID="pcl5_c1" Mandatory="Yes" redcap:Variable="pcl5_c1"/>
+		<ItemRef ItemOID="pcl5_c2" Mandatory="Yes" redcap:Variable="pcl5_c2"/>
+		<ItemRef ItemOID="pcl5_d1" Mandatory="Yes" redcap:Variable="pcl5_d1"/>
+		<ItemRef ItemOID="pcl5_d2" Mandatory="Yes" redcap:Variable="pcl5_d2"/>
+		<ItemRef ItemOID="pcl5_d3" Mandatory="Yes" redcap:Variable="pcl5_d3"/>
+		<ItemRef ItemOID="pcl5_d4" Mandatory="Yes" redcap:Variable="pcl5_d4"/>
+		<ItemRef ItemOID="pcl5_d5" Mandatory="Yes" redcap:Variable="pcl5_d5"/>
+		<ItemRef ItemOID="pcl5_d6" Mandatory="Yes" redcap:Variable="pcl5_d6"/>
+		<ItemRef ItemOID="pcl5_d7" Mandatory="Yes" redcap:Variable="pcl5_d7"/>
+		<ItemRef ItemOID="pcl5_e1" Mandatory="Yes" redcap:Variable="pcl5_e1"/>
+		<ItemRef ItemOID="pcl5_e2" Mandatory="Yes" redcap:Variable="pcl5_e2"/>
+		<ItemRef ItemOID="pcl5_e3" Mandatory="Yes" redcap:Variable="pcl5_e3"/>
+		<ItemRef ItemOID="pcl5_e4" Mandatory="Yes" redcap:Variable="pcl5_e4"/>
+		<ItemRef ItemOID="pcl5_e5" Mandatory="Yes" redcap:Variable="pcl5_e5"/>
+		<ItemRef ItemOID="pcl5_e6" Mandatory="Yes" redcap:Variable="pcl5_e6"/>
+		<ItemRef ItemOID="pcl5_baseline_total" Mandatory="No" redcap:Variable="pcl5_baseline_total"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="baseline_demographics.baseline_demographics_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="baseline_demographics_complete" Mandatory="No" redcap:Variable="baseline_demographics_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="dosing_day_session.session_start_time" Name="PSILOCYBIN ADMINISTRATION - SESSION DETAILS" Repeating="No">
+		<ItemRef ItemOID="session_start_time" Mandatory="Yes" redcap:Variable="session_start_time"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="dosing_day_session.psilocybin_dose_mg" Name="dosing_day_session" Repeating="No">
+		<ItemRef ItemOID="psilocybin_dose_mg" Mandatory="Yes" redcap:Variable="psilocybin_dose_mg"/>
+		<ItemRef ItemOID="session_start_bp_sys" Mandatory="Yes" redcap:Variable="session_start_bp_sys"/>
+		<ItemRef ItemOID="session_start_bp_dias" Mandatory="Yes" redcap:Variable="session_start_bp_dias"/>
+		<ItemRef ItemOID="session_start_hr" Mandatory="Yes" redcap:Variable="session_start_hr"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="dosing_day_session.sae_during_session" Name="ADVERSE EVENT MONITORING DURING SESSION" Repeating="No">
+		<ItemRef ItemOID="sae_during_session" Mandatory="Yes" redcap:Variable="sae_during_session"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="dosing_day_session.sae_type_dosing" Name="dosing_day_session" Repeating="No">
+		<ItemRef ItemOID="sae_type_dosing" Mandatory="No" redcap:Variable="sae_type_dosing"/>
+		<ItemRef ItemOID="sae_severity_dosing" Mandatory="No" redcap:Variable="sae_severity_dosing"/>
+		<ItemRef ItemOID="sae_notes_dosing" Mandatory="No" redcap:Variable="sae_notes_dosing"/>
+		<ItemRef ItemOID="intervention_given_dosing" Mandatory="No" redcap:Variable="intervention_given_dosing"/>
+		<ItemRef ItemOID="intervention_details_dose" Mandatory="No" redcap:Variable="intervention_details_dose"/>
+		<ItemRef ItemOID="session_completed" Mandatory="No" redcap:Variable="session_completed"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="dosing_day_session.dosing_day_session_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="dosing_day_session_complete" Mandatory="No" redcap:Variable="dosing_day_session_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="safety_checkin.days_post_session" Name="safety_checkin" Repeating="No">
+		<ItemRef ItemOID="days_post_session" Mandatory="Yes" redcap:Variable="days_post_session"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="safety_checkin.sae_since_contact" Name="SAFETY STATUS CHECK-IN" Repeating="No">
+		<ItemRef ItemOID="sae_since_contact" Mandatory="Yes" redcap:Variable="sae_since_contact"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="safety_checkin.sae_type_followup" Name="safety_checkin" Repeating="No">
+		<ItemRef ItemOID="sae_type_followup" Mandatory="No" redcap:Variable="sae_type_followup"/>
+		<ItemRef ItemOID="sae_date_followup" Mandatory="No" redcap:Variable="sae_date_followup"/>
+		<ItemRef ItemOID="sae_resolved_followup" Mandatory="No" redcap:Variable="sae_resolved_followup"/>
+		<ItemRef ItemOID="followup_bp_systolic" Mandatory="Yes" redcap:Variable="followup_bp_systolic"/>
+		<ItemRef ItemOID="followup_bp_diastolic" Mandatory="Yes" redcap:Variable="followup_bp_diastolic"/>
+		<ItemRef ItemOID="followup_heart_rate" Mandatory="Yes" redcap:Variable="followup_heart_rate"/>
+		<ItemRef ItemOID="back_to_activities" Mandatory="Yes" redcap:Variable="back_to_activities"/>
+		<ItemRef ItemOID="safe_to_drive" Mandatory="Yes" redcap:Variable="safe_to_drive"/>
+		<ItemRef ItemOID="sub_use_since_session" Mandatory="Yes" redcap:Variable="sub_use_since_session"/>
+		<ItemRef ItemOID="substance_use_details" Mandatory="No" redcap:Variable="substance_use_details"/>
+		<ItemRef ItemOID="followup_suicidal_ideation" Mandatory="Yes" redcap:Variable="followup_suicidal_ideation"/>
+		<ItemRef ItemOID="suicidal_ideation_details" Mandatory="No" redcap:Variable="suicidal_ideation_details"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="safety_checkin.safety_checkin_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="safety_checkin_complete" Mandatory="No" redcap:Variable="safety_checkin_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="ptsd_followup_assessment.pcl5_fu_b1" Name="PTSD CHECKLIST FOR DSM-5 (PCL-5) - FOLLOW-UP ASSESSMENT
+" Repeating="No">
+		<ItemRef ItemOID="pcl5_fu_b1" Mandatory="Yes" redcap:Variable="pcl5_fu_b1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="ptsd_followup_assessment.pcl5_fu_b2" Name="ptsd_followup_assessment" Repeating="No">
+		<ItemRef ItemOID="pcl5_fu_b2" Mandatory="Yes" redcap:Variable="pcl5_fu_b2"/>
+		<ItemRef ItemOID="pcl5_fu_b3" Mandatory="Yes" redcap:Variable="pcl5_fu_b3"/>
+		<ItemRef ItemOID="pcl5_fu_b4" Mandatory="Yes" redcap:Variable="pcl5_fu_b4"/>
+		<ItemRef ItemOID="pcl5_fu_b5" Mandatory="Yes" redcap:Variable="pcl5_fu_b5"/>
+		<ItemRef ItemOID="pcl5_fu_c1" Mandatory="Yes" redcap:Variable="pcl5_fu_c1"/>
+		<ItemRef ItemOID="pcl5_fu_c2" Mandatory="Yes" redcap:Variable="pcl5_fu_c2"/>
+		<ItemRef ItemOID="pcl5_fu_d1" Mandatory="Yes" redcap:Variable="pcl5_fu_d1"/>
+		<ItemRef ItemOID="pcl5_fu_d2" Mandatory="Yes" redcap:Variable="pcl5_fu_d2"/>
+		<ItemRef ItemOID="pcl5_fu_d3" Mandatory="Yes" redcap:Variable="pcl5_fu_d3"/>
+		<ItemRef ItemOID="pcl5_fu_d4" Mandatory="Yes" redcap:Variable="pcl5_fu_d4"/>
+		<ItemRef ItemOID="pcl5_fu_d5" Mandatory="Yes" redcap:Variable="pcl5_fu_d5"/>
+		<ItemRef ItemOID="pcl5_fu_d6" Mandatory="Yes" redcap:Variable="pcl5_fu_d6"/>
+		<ItemRef ItemOID="pcl5_fu_d7" Mandatory="Yes" redcap:Variable="pcl5_fu_d7"/>
+		<ItemRef ItemOID="pcl5_fu_e1" Mandatory="Yes" redcap:Variable="pcl5_fu_e1"/>
+		<ItemRef ItemOID="pcl5_fu_e2" Mandatory="Yes" redcap:Variable="pcl5_fu_e2"/>
+		<ItemRef ItemOID="pcl5_fu_e3" Mandatory="Yes" redcap:Variable="pcl5_fu_e3"/>
+		<ItemRef ItemOID="pcl5_fu_e4" Mandatory="Yes" redcap:Variable="pcl5_fu_e4"/>
+		<ItemRef ItemOID="pcl5_fu_e5" Mandatory="Yes" redcap:Variable="pcl5_fu_e5"/>
+		<ItemRef ItemOID="pcl5_fu_e6" Mandatory="Yes" redcap:Variable="pcl5_fu_e6"/>
+		<ItemRef ItemOID="pcl5_followup_total" Mandatory="No" redcap:Variable="pcl5_followup_total"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="ptsd_followup_assessment.phq2_interest" Name="DEPRESSION SCREENING (PHQ-2)" Repeating="No">
+		<ItemRef ItemOID="phq2_interest" Mandatory="Yes" redcap:Variable="phq2_interest"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="ptsd_followup_assessment.phq2_depressed" Name="ptsd_followup_assessment" Repeating="No">
+		<ItemRef ItemOID="phq2_depressed" Mandatory="Yes" redcap:Variable="phq2_depressed"/>
+		<ItemRef ItemOID="global_improvement" Mandatory="Yes" redcap:Variable="global_improvement"/>
+		<ItemRef ItemOID="subjective_benefit_notes" Mandatory="No" redcap:Variable="subjective_benefit_notes"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="ptsd_followup_assessment.ptsd_followup_assessment_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="ptsd_followup_assessment_complete" Mandatory="No" redcap:Variable="ptsd_followup_assessment_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="subject_id" Name="subject_id" DataType="integer" Length="999" redcap:Variable="subject_id" redcap:FieldType="text" redcap:TextValidationType="int" redcap:Identifier="y">
+		<Question><TranslatedText>Subject ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="baseline_visit_date" Name="baseline_visit_date" DataType="date" Length="999" redcap:Variable="baseline_visit_date" redcap:FieldType="text" redcap:TextValidationType="date_dmy" redcap:RequiredField="y">
+		<Question><TranslatedText>Date of Baseline Visit</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="age_years" Name="age_years" DataType="integer" Length="999" redcap:Variable="age_years" redcap:FieldType="text" redcap:TextValidationType="int" redcap:RequiredField="y">
+		<Question><TranslatedText>Age (years)</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>18</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (18 - 120). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>120</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (18 - 120). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="military_branch" Name="military_branch" DataType="text" Length="1" redcap:Variable="military_branch" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Military Service Branch</TranslatedText></Question>
+		<CodeListRef CodeListOID="military_branch.choices"/>
+	</ItemDef>
+	<ItemDef OID="years_active_service" Name="years_active_service" DataType="integer" Length="999" redcap:Variable="years_active_service" redcap:FieldType="text" redcap:TextValidationType="int" redcap:RequiredField="y">
+		<Question><TranslatedText>Years of Active Service</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>0</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (0 - 60). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>60</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (0 - 60). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="ptsd_diagnosis_date" Name="ptsd_diagnosis_date" DataType="date" Length="999" redcap:Variable="ptsd_diagnosis_date" redcap:FieldType="text" redcap:TextValidationType="date_dmy" redcap:RequiredField="y">
+		<Question><TranslatedText>When were you diagnosed with PTSD? (approximate year is fine)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="military_sexual_trauma" Name="military_sexual_trauma" DataType="text" Length="1" redcap:Variable="military_sexual_trauma" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>History of Military Sexual Trauma (MST)?</TranslatedText></Question>
+		<CodeListRef CodeListOID="military_sexual_trauma.choices"/>
+	</ItemDef>
+	<ItemDef OID="prior_psychedelic_exposure" Name="prior_psychedelic_exposure" DataType="text" Length="1" redcap:Variable="prior_psychedelic_exposure" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Have you had any previous experience with psychedelic substances (psilocybin, LSD, mescaline, DMT)?</TranslatedText></Question>
+		<CodeListRef CodeListOID="prior_psychedelic_exposure.choices"/>
+	</ItemDef>
+	<ItemDef OID="baseline_bp_systolic" Name="baseline_bp_systolic" DataType="integer" Length="999" redcap:Variable="baseline_bp_systolic" redcap:FieldType="text" redcap:TextValidationType="int" redcap:SectionHeader="BASELINE SAFETY ASSESSMENT" redcap:RequiredField="y">
+		<Question><TranslatedText>Systolic Blood Pressure (mm Hg)</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>70</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (70 - 250). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>250</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (70 - 250). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="baseline_bp_diastolic" Name="baseline_bp_diastolic" DataType="integer" Length="999" redcap:Variable="baseline_bp_diastolic" redcap:FieldType="text" redcap:TextValidationType="int" redcap:RequiredField="y">
+		<Question><TranslatedText>Diastolic Blood Pressure (mm Hg)</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>40</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (40 - 160). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>160</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (40 - 160). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="baseline_heart_rate" Name="baseline_heart_rate" DataType="integer" Length="999" redcap:Variable="baseline_heart_rate" redcap:FieldType="text" redcap:TextValidationType="int" redcap:RequiredField="y">
+		<Question><TranslatedText>Heart Rate (beats per minute)</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>40</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (40 - 150). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>150</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (40 - 150). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="baseline_temperature_f" Name="baseline_temperature_f" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="baseline_temperature_f" redcap:FieldType="text" redcap:TextValidationType="float" redcap:RequiredField="y">
+		<Question><TranslatedText>Body Temperature (°F)</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>95.0</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (95.0 - 105.0). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>105.0</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (95.0 - 105.0). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="current_psych_meds___1" Name="current_psych_meds___1" DataType="boolean" Length="1" redcap:Variable="current_psych_meds" redcap:FieldType="checkbox" redcap:RequiredField="y">
+		<Question><TranslatedText>Current Psychiatric Medications (check all that apply)</TranslatedText></Question>
+		<CodeListRef CodeListOID="current_psych_meds___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="current_psych_meds___2" Name="current_psych_meds___2" DataType="boolean" Length="1" redcap:Variable="current_psych_meds" redcap:FieldType="checkbox" redcap:RequiredField="y">
+		<Question><TranslatedText>Current Psychiatric Medications (check all that apply)</TranslatedText></Question>
+		<CodeListRef CodeListOID="current_psych_meds___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="current_psych_meds___3" Name="current_psych_meds___3" DataType="boolean" Length="1" redcap:Variable="current_psych_meds" redcap:FieldType="checkbox" redcap:RequiredField="y">
+		<Question><TranslatedText>Current Psychiatric Medications (check all that apply)</TranslatedText></Question>
+		<CodeListRef CodeListOID="current_psych_meds___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="current_psych_meds___4" Name="current_psych_meds___4" DataType="boolean" Length="1" redcap:Variable="current_psych_meds" redcap:FieldType="checkbox" redcap:RequiredField="y">
+		<Question><TranslatedText>Current Psychiatric Medications (check all that apply)</TranslatedText></Question>
+		<CodeListRef CodeListOID="current_psych_meds___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="current_psych_meds___5" Name="current_psych_meds___5" DataType="boolean" Length="1" redcap:Variable="current_psych_meds" redcap:FieldType="checkbox" redcap:RequiredField="y">
+		<Question><TranslatedText>Current Psychiatric Medications (check all that apply)</TranslatedText></Question>
+		<CodeListRef CodeListOID="current_psych_meds___5.choices"/>
+	</ItemDef>
+	<ItemDef OID="current_psych_meds___6" Name="current_psych_meds___6" DataType="boolean" Length="1" redcap:Variable="current_psych_meds" redcap:FieldType="checkbox" redcap:RequiredField="y">
+		<Question><TranslatedText>Current Psychiatric Medications (check all that apply)</TranslatedText></Question>
+		<CodeListRef CodeListOID="current_psych_meds___6.choices"/>
+	</ItemDef>
+	<ItemDef OID="current_psych_meds___7" Name="current_psych_meds___7" DataType="boolean" Length="1" redcap:Variable="current_psych_meds" redcap:FieldType="checkbox" redcap:RequiredField="y">
+		<Question><TranslatedText>Current Psychiatric Medications (check all that apply)</TranslatedText></Question>
+		<CodeListRef CodeListOID="current_psych_meds___7.choices"/>
+	</ItemDef>
+	<ItemDef OID="substance_use_30days" Name="substance_use_30days" DataType="text" Length="1" redcap:Variable="substance_use_30days" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Have you used alcohol or drugs in the last 30 days?</TranslatedText></Question>
+		<CodeListRef CodeListOID="substance_use_30days.choices"/>
+	</ItemDef>
+	<ItemDef OID="baseline_suicidal_ideation" Name="baseline_suicidal_ideation" DataType="text" Length="1" redcap:Variable="baseline_suicidal_ideation" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Are you currently having thoughts of harming yourself or ending your life?</TranslatedText></Question>
+		<CodeListRef CodeListOID="baseline_suicidal_ideation.choices"/>
+	</ItemDef>
+	<ItemDef OID="medical_contraindications" Name="medical_contraindications" DataType="text" Length="999" redcap:Variable="medical_contraindications" redcap:FieldType="textarea" redcap:RequiredField="y">
+		<Question><TranslatedText>Any medical conditions that could contraindicate psilocybin? (e.g., uncontrolled hypertension, cardiac issues, seizure disorder)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="cleared_for_participation" Name="cleared_for_participation" DataType="text" Length="1" redcap:Variable="cleared_for_participation" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[baseline_suicidal_ideation] = 2 AND [baseline_bp_systolic] &lt;= 180 AND [baseline_bp_diastolic] &lt;= 120">
+		<Question><TranslatedText>Medical Team Clearance: Subject cleared for psilocybin administration?</TranslatedText></Question>
+		<CodeListRef CodeListOID="cleared_for_participation.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_b1" Name="pcl5_b1" DataType="text" Length="1" redcap:Variable="pcl5_b1" redcap:FieldType="radio" redcap:SectionHeader="PTSD CHECKLIST FOR DSM-5 (PCL-5) - BASELINE
+Below are 20 statements about PTSD symptoms. Rate each on a scale from 0 (Not at all) to 4 (Extremely). Base your responses on your worst month of PTSD symptoms in the past month." redcap:RequiredField="y">
+		<Question><TranslatedText>B1. Repeated, disturbing memories, thoughts, or images of the stressful experience?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_b1.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_b2" Name="pcl5_b2" DataType="text" Length="1" redcap:Variable="pcl5_b2" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>B2. Repeated, disturbing dreams of the stressful experience?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_b2.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_b3" Name="pcl5_b3" DataType="text" Length="1" redcap:Variable="pcl5_b3" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>B3. Sudden, frightening flashbacks of the stressful experience?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_b3.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_b4" Name="pcl5_b4" DataType="text" Length="1" redcap:Variable="pcl5_b4" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>B4. Feeling very upset when reminded of the stressful experience?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_b4.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_b5" Name="pcl5_b5" DataType="text" Length="1" redcap:Variable="pcl5_b5" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>B5. Having strong physical reactions when reminded of the stressful experience?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_b5.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_c1" Name="pcl5_c1" DataType="text" Length="1" redcap:Variable="pcl5_c1" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>C1. Avoiding memories, thoughts, or feelings related to the stressful experience?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_c1.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_c2" Name="pcl5_c2" DataType="text" Length="1" redcap:Variable="pcl5_c2" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>C2. Avoiding external reminders of the stressful experience (places, people, conversations, activities, objects, or situations)?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_c2.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_d1" Name="pcl5_d1" DataType="text" Length="1" redcap:Variable="pcl5_d1" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>D1. Trouble remembering important parts of the stressful experience?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_d1.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_d2" Name="pcl5_d2" DataType="text" Length="1" redcap:Variable="pcl5_d2" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>D2. Having strong negative beliefs about yourself, other people, or the world?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_d2.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_d3" Name="pcl5_d3" DataType="text" Length="1" redcap:Variable="pcl5_d3" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>D3. Blaming yourself or someone else for the stressful experience or what happened after it?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_d3.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_d4" Name="pcl5_d4" DataType="text" Length="1" redcap:Variable="pcl5_d4" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>D4. Having strong negative feelings such as fear, anger, guilt, or shame?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_d4.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_d5" Name="pcl5_d5" DataType="text" Length="1" redcap:Variable="pcl5_d5" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>D5. Interest in activities has decreased?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_d5.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_d6" Name="pcl5_d6" DataType="text" Length="1" redcap:Variable="pcl5_d6" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>D6. Feeling distant or cut off from other people?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_d6.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_d7" Name="pcl5_d7" DataType="text" Length="1" redcap:Variable="pcl5_d7" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>D7. Difficulty experiencing positive emotions?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_d7.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_e1" Name="pcl5_e1" DataType="text" Length="1" redcap:Variable="pcl5_e1" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>E1. Irritable or aggressive behavior?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_e1.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_e2" Name="pcl5_e2" DataType="text" Length="1" redcap:Variable="pcl5_e2" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>E2. Taking too many risks or doing things that could cause you harm?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_e2.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_e3" Name="pcl5_e3" DataType="text" Length="1" redcap:Variable="pcl5_e3" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>E3. Being &quot;on guard&quot; or watchful or alert?
+</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_e3.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_e4" Name="pcl5_e4" DataType="text" Length="1" redcap:Variable="pcl5_e4" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>E4. Your startle response (for example, being startled by a loud noise or surprise)?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_e4.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_e5" Name="pcl5_e5" DataType="text" Length="1" redcap:Variable="pcl5_e5" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>E5. Difficulty concentrating?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_e5.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_e6" Name="pcl5_e6" DataType="text" Length="1" redcap:Variable="pcl5_e6" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>E6. Trouble falling or staying asleep?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_e6.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_baseline_total" Name="pcl5_baseline_total" DataType="float" Length="999" redcap:Variable="pcl5_baseline_total" redcap:FieldType="calc" redcap:Calculation="[pcl5_b1] + [pcl5_b2] + [pcl5_b3] + [pcl5_b4] + [pcl5_b5] + [pcl5_c1] + [pcl5_c2] + [pcl5_d1] + [pcl5_d2] + [pcl5_d3] + [pcl5_d4] + [pcl5_d5] + [pcl5_d6] + [pcl5_d7] + [pcl5_e1] + [pcl5_e2] + [pcl5_e3] + [pcl5_e4] + [pcl5_e5] + [pcl5_e6]">
+		<Question><TranslatedText>PCL-5 Total Score (Baseline)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="baseline_demographics_complete" Name="baseline_demographics_complete" DataType="text" Length="1" redcap:Variable="baseline_demographics_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="baseline_demographics_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="session_start_time" Name="session_start_time" DataType="partialDatetime" Length="999" redcap:Variable="session_start_time" redcap:FieldType="text" redcap:TextValidationType="datetime_dmy" redcap:SectionHeader="PSILOCYBIN ADMINISTRATION - SESSION DETAILS" redcap:RequiredField="y">
+		<Question><TranslatedText>What time did the session begin?</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="psilocybin_dose_mg" Name="psilocybin_dose_mg" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="psilocybin_dose_mg" redcap:FieldType="text" redcap:TextValidationType="float" redcap:RequiredField="y">
+		<Question><TranslatedText>Psilocybin dose administered (mg)</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>0.5</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (0.5 - 50.0). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>50.0</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (0.5 - 50.0). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="session_start_bp_sys" Name="session_start_bp_sys" DataType="integer" Length="999" redcap:Variable="session_start_bp_sys" redcap:FieldType="text" redcap:TextValidationType="int" redcap:RequiredField="y">
+		<Question><TranslatedText>BP Systolic at session start (mm Hg)</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>70</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (70 - 250). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>250</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (70 - 250). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="session_start_bp_dias" Name="session_start_bp_dias" DataType="integer" Length="999" redcap:Variable="session_start_bp_dias" redcap:FieldType="text" redcap:TextValidationType="int" redcap:RequiredField="y">
+		<Question><TranslatedText>BP Diastolic at session start (mm Hg)</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>40</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (40 - 160). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>160</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (40 - 160). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="session_start_hr" Name="session_start_hr" DataType="integer" Length="999" redcap:Variable="session_start_hr" redcap:FieldType="text" redcap:TextValidationType="int" redcap:RequiredField="y">
+		<Question><TranslatedText>Heart Rate at session start (bpm)</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>40</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (40 - 150). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>150</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (40 - 150). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="sae_during_session" Name="sae_during_session" DataType="text" Length="1" redcap:Variable="sae_during_session" redcap:FieldType="radio" redcap:SectionHeader="ADVERSE EVENT MONITORING DURING SESSION" redcap:RequiredField="y">
+		<Question><TranslatedText>Did a serious adverse event occur during this session?</TranslatedText></Question>
+		<CodeListRef CodeListOID="sae_during_session.choices"/>
+	</ItemDef>
+	<ItemDef OID="sae_type_dosing" Name="sae_type_dosing" DataType="text" Length="1" redcap:Variable="sae_type_dosing" redcap:FieldType="select" redcap:BranchingLogic="[sae_during_session] = &#039;1&#039;">
+		<Question><TranslatedText>Type of adverse event:</TranslatedText></Question>
+		<CodeListRef CodeListOID="sae_type_dosing.choices"/>
+	</ItemDef>
+	<ItemDef OID="sae_severity_dosing" Name="sae_severity_dosing" DataType="text" Length="1" redcap:Variable="sae_severity_dosing" redcap:FieldType="radio" redcap:BranchingLogic="[sae_during_session] = &#039;1&#039;">
+		<Question><TranslatedText>Severity of adverse event:</TranslatedText></Question>
+		<CodeListRef CodeListOID="sae_severity_dosing.choices"/>
+	</ItemDef>
+	<ItemDef OID="sae_notes_dosing" Name="sae_notes_dosing" DataType="text" Length="999" redcap:Variable="sae_notes_dosing" redcap:FieldType="textarea" redcap:BranchingLogic="[sae_during_session] = &#039;1&#039;">
+		<Question><TranslatedText>Describe the adverse event and interventions taken:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="intervention_given_dosing" Name="intervention_given_dosing" DataType="boolean" Length="1" redcap:Variable="intervention_given_dosing" redcap:FieldType="yesno" redcap:BranchingLogic="[sae_during_session] = &#039;1&#039;">
+		<Question><TranslatedText>Was pharmacological or other intervention given?</TranslatedText></Question>
+		<CodeListRef CodeListOID="intervention_given_dosing.choices"/>
+	</ItemDef>
+	<ItemDef OID="intervention_details_dose" Name="intervention_details_dose" DataType="text" Length="1" redcap:Variable="intervention_details_dose" redcap:FieldType="radio" redcap:BranchingLogic="[intervention_given_dosing] = &#039;1&#039;">
+		<Question><TranslatedText>What intervention was given? (medication, technique, etc.)</TranslatedText></Question>
+		<CodeListRef CodeListOID="intervention_details_dose.choices"/>
+	</ItemDef>
+	<ItemDef OID="session_completed" Name="session_completed" DataType="text" Length="1" redcap:Variable="session_completed" redcap:FieldType="radio" redcap:BranchingLogic="[sae_severity_dosing] = &#039;3&#039;">
+		<Question><TranslatedText>Was session completed, or was psilocybin terminated early?</TranslatedText></Question>
+		<CodeListRef CodeListOID="session_completed.choices"/>
+	</ItemDef>
+	<ItemDef OID="dosing_day_session_complete" Name="dosing_day_session_complete" DataType="text" Length="1" redcap:Variable="dosing_day_session_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="dosing_day_session_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="days_post_session" Name="days_post_session" DataType="integer" Length="999" redcap:Variable="days_post_session" redcap:FieldType="text" redcap:TextValidationType="int" redcap:RequiredField="y">
+		<Question><TranslatedText>How many days have passed since psilocybin session?</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>0</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (0 - 180). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>180</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (0 - 180). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="sae_since_contact" Name="sae_since_contact" DataType="text" Length="1" redcap:Variable="sae_since_contact" redcap:FieldType="radio" redcap:SectionHeader="SAFETY STATUS CHECK-IN" redcap:RequiredField="y">
+		<Question><TranslatedText>Has a serious adverse event occurred since we last spoke?</TranslatedText></Question>
+		<CodeListRef CodeListOID="sae_since_contact.choices"/>
+	</ItemDef>
+	<ItemDef OID="sae_type_followup" Name="sae_type_followup" DataType="text" Length="1" redcap:Variable="sae_type_followup" redcap:FieldType="select" redcap:BranchingLogic="[sae_since_contact] = &#039;1&#039;">
+		<Question><TranslatedText>Type of adverse event:</TranslatedText></Question>
+		<CodeListRef CodeListOID="sae_type_followup.choices"/>
+	</ItemDef>
+	<ItemDef OID="sae_date_followup" Name="sae_date_followup" DataType="date" Length="999" redcap:Variable="sae_date_followup" redcap:FieldType="text" redcap:TextValidationType="date_dmy" redcap:BranchingLogic="[sae_since_contact] = &#039;1&#039;">
+		<Question><TranslatedText>Date of adverse event (D-M-Y)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="sae_resolved_followup" Name="sae_resolved_followup" DataType="text" Length="1" redcap:Variable="sae_resolved_followup" redcap:FieldType="radio" redcap:BranchingLogic="[sae_since_contact] = &#039;1&#039;">
+		<Question><TranslatedText>Has this adverse event resolved?</TranslatedText></Question>
+		<CodeListRef CodeListOID="sae_resolved_followup.choices"/>
+	</ItemDef>
+	<ItemDef OID="followup_bp_systolic" Name="followup_bp_systolic" DataType="integer" Length="999" redcap:Variable="followup_bp_systolic" redcap:FieldType="text" redcap:TextValidationType="int" redcap:RequiredField="y">
+		<Question><TranslatedText>Current Systolic Blood Pressure (mm Hg):</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>70</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (70 - 250). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>250</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (70 - 250). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="followup_bp_diastolic" Name="followup_bp_diastolic" DataType="integer" Length="999" redcap:Variable="followup_bp_diastolic" redcap:FieldType="text" redcap:TextValidationType="int" redcap:RequiredField="y">
+		<Question><TranslatedText>Current Diastolic Blood Pressure (mm Hg):</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>40</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (40 - 160). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>160</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (40 - 160). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="followup_heart_rate" Name="followup_heart_rate" DataType="integer" Length="999" redcap:Variable="followup_heart_rate" redcap:FieldType="text" redcap:TextValidationType="int" redcap:RequiredField="y">
+		<Question><TranslatedText>Current Heart Rate (bpm):</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>40</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (40 - 150). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>150</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (40 - 150). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="back_to_activities" Name="back_to_activities" DataType="text" Length="1" redcap:Variable="back_to_activities" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Have you returned to your normal daily activities and work?</TranslatedText></Question>
+		<CodeListRef CodeListOID="back_to_activities.choices"/>
+	</ItemDef>
+	<ItemDef OID="safe_to_drive" Name="safe_to_drive" DataType="text" Length="1" redcap:Variable="safe_to_drive" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Is it safe for you to drive?</TranslatedText></Question>
+		<CodeListRef CodeListOID="safe_to_drive.choices"/>
+	</ItemDef>
+	<ItemDef OID="sub_use_since_session" Name="sub_use_since_session" DataType="text" Length="1" redcap:Variable="sub_use_since_session" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Have you used alcohol or any recreational drugs since the session?</TranslatedText></Question>
+		<CodeListRef CodeListOID="sub_use_since_session.choices"/>
+	</ItemDef>
+	<ItemDef OID="substance_use_details" Name="substance_use_details" DataType="text" Length="999" redcap:Variable="substance_use_details" redcap:FieldType="textarea" redcap:BranchingLogic="[sub_use_since_session] = &#039;1&#039;">
+		<Question><TranslatedText>What substance and when?</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="followup_suicidal_ideation" Name="followup_suicidal_ideation" DataType="text" Length="1" redcap:Variable="followup_suicidal_ideation" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Are you currently having thoughts of harming yourself?</TranslatedText></Question>
+		<CodeListRef CodeListOID="followup_suicidal_ideation.choices"/>
+	</ItemDef>
+	<ItemDef OID="suicidal_ideation_details" Name="suicidal_ideation_details" DataType="text" Length="999" redcap:Variable="suicidal_ideation_details" redcap:FieldType="textarea" redcap:BranchingLogic="[followup_suicidal_ideation] = &#039;1&#039;">
+		<Question><TranslatedText>Please describe your thoughts and any plan:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="safety_checkin_complete" Name="safety_checkin_complete" DataType="text" Length="1" redcap:Variable="safety_checkin_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="safety_checkin_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_b1" Name="pcl5_fu_b1" DataType="text" Length="1" redcap:Variable="pcl5_fu_b1" redcap:FieldType="radio" redcap:SectionHeader="PTSD CHECKLIST FOR DSM-5 (PCL-5) - FOLLOW-UP ASSESSMENT
+" redcap:RequiredField="y">
+		<Question><TranslatedText>B1. Repeated, disturbing memories, thoughts, or images of the stressful experience?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_b1.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_b2" Name="pcl5_fu_b2" DataType="text" Length="1" redcap:Variable="pcl5_fu_b2" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>B2. Repeated, disturbing dreams of the stressful experience?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_b2.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_b3" Name="pcl5_fu_b3" DataType="text" Length="1" redcap:Variable="pcl5_fu_b3" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>B3. Sudden, frightening flashbacks of the stressful experience?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_b3.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_b4" Name="pcl5_fu_b4" DataType="text" Length="1" redcap:Variable="pcl5_fu_b4" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>B4. Feeling very upset when reminded of the stressful experience?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_b4.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_b5" Name="pcl5_fu_b5" DataType="text" Length="1" redcap:Variable="pcl5_fu_b5" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>B5. Having strong physical reactions when reminded of the stressful experience?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_b5.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_c1" Name="pcl5_fu_c1" DataType="text" Length="1" redcap:Variable="pcl5_fu_c1" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>C1. Avoiding memories, thoughts, or feelings related to the stressful experience?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_c1.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_c2" Name="pcl5_fu_c2" DataType="text" Length="1" redcap:Variable="pcl5_fu_c2" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>C2. Avoiding external reminders of the stressful experience (places, people, conversations, activities, objects, or situations)?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_c2.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_d1" Name="pcl5_fu_d1" DataType="text" Length="1" redcap:Variable="pcl5_fu_d1" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>D1. Trouble remembering important parts of the stressful experience?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_d1.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_d2" Name="pcl5_fu_d2" DataType="text" Length="1" redcap:Variable="pcl5_fu_d2" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>D2. Having strong negative beliefs about yourself, other people, or the world?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_d2.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_d3" Name="pcl5_fu_d3" DataType="text" Length="1" redcap:Variable="pcl5_fu_d3" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>D3. Blaming yourself or someone else for the stressful experience or what happened after it?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_d3.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_d4" Name="pcl5_fu_d4" DataType="text" Length="1" redcap:Variable="pcl5_fu_d4" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>D4. Having strong negative feelings such as fear, anger, guilt, or shame?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_d4.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_d5" Name="pcl5_fu_d5" DataType="text" Length="1" redcap:Variable="pcl5_fu_d5" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>D5. Interest in activities has decreased?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_d5.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_d6" Name="pcl5_fu_d6" DataType="text" Length="1" redcap:Variable="pcl5_fu_d6" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>D6. Feeling distant or cut off from other people?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_d6.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_d7" Name="pcl5_fu_d7" DataType="text" Length="1" redcap:Variable="pcl5_fu_d7" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>D7. Difficulty experiencing positive emotions?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_d7.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_e1" Name="pcl5_fu_e1" DataType="text" Length="1" redcap:Variable="pcl5_fu_e1" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>E1. Irritable or aggressive behavior?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_e1.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_e2" Name="pcl5_fu_e2" DataType="text" Length="1" redcap:Variable="pcl5_fu_e2" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>E2. Taking too many risks or doing things that could cause you harm?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_e2.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_e3" Name="pcl5_fu_e3" DataType="text" Length="1" redcap:Variable="pcl5_fu_e3" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>E3. Being &quot;on guard&quot; or watchful or alert?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_e3.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_e4" Name="pcl5_fu_e4" DataType="text" Length="1" redcap:Variable="pcl5_fu_e4" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>E4. Your startle response (for example, being startled by a loud noise or surprise)?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_e4.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_e5" Name="pcl5_fu_e5" DataType="text" Length="1" redcap:Variable="pcl5_fu_e5" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>E5. Difficulty concentrating?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_e5.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_fu_e6" Name="pcl5_fu_e6" DataType="text" Length="1" redcap:Variable="pcl5_fu_e6" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>E6. Trouble falling or staying asleep?</TranslatedText></Question>
+		<CodeListRef CodeListOID="pcl5_fu_e6.choices"/>
+	</ItemDef>
+	<ItemDef OID="pcl5_followup_total" Name="pcl5_followup_total" DataType="float" Length="999" redcap:Variable="pcl5_followup_total" redcap:FieldType="calc" redcap:Calculation="[pcl5_fu_b1] + [pcl5_fu_b2] + [pcl5_fu_b3] + [pcl5_fu_b4] + [pcl5_fu_b5] + [pcl5_fu_c1] + [pcl5_fu_c2] + [pcl5_fu_d1] + [pcl5_fu_d2] + [pcl5_fu_d3] + [pcl5_fu_d4] + [pcl5_fu_d5] + [pcl5_fu_d6] + [pcl5_fu_d7] + [pcl5_fu_e1] + [pcl5_fu_e2] + [pcl5_fu_e3] + [pcl5_fu_e4] + [pcl5_fu_e5] + [pcl5_fu_e6]">
+		<Question><TranslatedText>PCL-5 Total Score (Follow-Up)</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="phq2_interest" Name="phq2_interest" DataType="text" Length="1" redcap:Variable="phq2_interest" redcap:FieldType="radio" redcap:SectionHeader="DEPRESSION SCREENING (PHQ-2)" redcap:RequiredField="y">
+		<Question><TranslatedText>Over the past two weeks, how often have you been bothered by little interest or pleasure in doing things?
+</TranslatedText></Question>
+		<CodeListRef CodeListOID="phq2_interest.choices"/>
+	</ItemDef>
+	<ItemDef OID="phq2_depressed" Name="phq2_depressed" DataType="text" Length="1" redcap:Variable="phq2_depressed" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Over the past two weeks, how often have you been bothered by feeling down, depressed, or hopeless?</TranslatedText></Question>
+		<CodeListRef CodeListOID="phq2_depressed.choices"/>
+	</ItemDef>
+	<ItemDef OID="global_improvement" Name="global_improvement" DataType="text" Length="1" redcap:Variable="global_improvement" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Compared to before the psilocybin session, how would you rate your overall improvement?</TranslatedText></Question>
+		<CodeListRef CodeListOID="global_improvement.choices"/>
+	</ItemDef>
+	<ItemDef OID="subjective_benefit_notes" Name="subjective_benefit_notes" DataType="text" Length="999" redcap:Variable="subjective_benefit_notes" redcap:FieldType="textarea">
+		<Question><TranslatedText>Please describe any benefits or improvements you&#039;ve noticed:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="ptsd_followup_assessment_complete" Name="ptsd_followup_assessment_complete" DataType="text" Length="1" redcap:Variable="ptsd_followup_assessment_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="ptsd_followup_assessment_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="military_branch.choices" Name="military_branch" DataType="text" redcap:Variable="military_branch">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Army</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Navy</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Marine Corps</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Air Force</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Coast Guard</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>National Guard</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Reserve</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>Other</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="military_sexual_trauma.choices" Name="military_sexual_trauma" DataType="text" redcap:Variable="military_sexual_trauma">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="prior_psychedelic_exposure.choices" Name="prior_psychedelic_exposure" DataType="text" redcap:Variable="prior_psychedelic_exposure">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="current_psych_meds___1.choices" Name="current_psych_meds___1" DataType="boolean" redcap:Variable="current_psych_meds" redcap:CheckboxChoices="1, SSRI (Sertraline, Escitalopram, etc.) | 2, SNRI (Venlafaxine, Duloxetine, etc.) | 3, Atypical Antipsychotic (Aripiprazole, Quetiapine, etc.) | 4, Benzodiazepine (Alprazolam, Clonazepam, etc.) | 5, Mood stabilizer (Lithium, Valproate, etc.) | 6, None | 7, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="current_psych_meds___2.choices" Name="current_psych_meds___2" DataType="boolean" redcap:Variable="current_psych_meds" redcap:CheckboxChoices="1, SSRI (Sertraline, Escitalopram, etc.) | 2, SNRI (Venlafaxine, Duloxetine, etc.) | 3, Atypical Antipsychotic (Aripiprazole, Quetiapine, etc.) | 4, Benzodiazepine (Alprazolam, Clonazepam, etc.) | 5, Mood stabilizer (Lithium, Valproate, etc.) | 6, None | 7, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="current_psych_meds___3.choices" Name="current_psych_meds___3" DataType="boolean" redcap:Variable="current_psych_meds" redcap:CheckboxChoices="1, SSRI (Sertraline, Escitalopram, etc.) | 2, SNRI (Venlafaxine, Duloxetine, etc.) | 3, Atypical Antipsychotic (Aripiprazole, Quetiapine, etc.) | 4, Benzodiazepine (Alprazolam, Clonazepam, etc.) | 5, Mood stabilizer (Lithium, Valproate, etc.) | 6, None | 7, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="current_psych_meds___4.choices" Name="current_psych_meds___4" DataType="boolean" redcap:Variable="current_psych_meds" redcap:CheckboxChoices="1, SSRI (Sertraline, Escitalopram, etc.) | 2, SNRI (Venlafaxine, Duloxetine, etc.) | 3, Atypical Antipsychotic (Aripiprazole, Quetiapine, etc.) | 4, Benzodiazepine (Alprazolam, Clonazepam, etc.) | 5, Mood stabilizer (Lithium, Valproate, etc.) | 6, None | 7, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="current_psych_meds___5.choices" Name="current_psych_meds___5" DataType="boolean" redcap:Variable="current_psych_meds" redcap:CheckboxChoices="1, SSRI (Sertraline, Escitalopram, etc.) | 2, SNRI (Venlafaxine, Duloxetine, etc.) | 3, Atypical Antipsychotic (Aripiprazole, Quetiapine, etc.) | 4, Benzodiazepine (Alprazolam, Clonazepam, etc.) | 5, Mood stabilizer (Lithium, Valproate, etc.) | 6, None | 7, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="current_psych_meds___6.choices" Name="current_psych_meds___6" DataType="boolean" redcap:Variable="current_psych_meds" redcap:CheckboxChoices="1, SSRI (Sertraline, Escitalopram, etc.) | 2, SNRI (Venlafaxine, Duloxetine, etc.) | 3, Atypical Antipsychotic (Aripiprazole, Quetiapine, etc.) | 4, Benzodiazepine (Alprazolam, Clonazepam, etc.) | 5, Mood stabilizer (Lithium, Valproate, etc.) | 6, None | 7, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="current_psych_meds___7.choices" Name="current_psych_meds___7" DataType="boolean" redcap:Variable="current_psych_meds" redcap:CheckboxChoices="1, SSRI (Sertraline, Escitalopram, etc.) | 2, SNRI (Venlafaxine, Duloxetine, etc.) | 3, Atypical Antipsychotic (Aripiprazole, Quetiapine, etc.) | 4, Benzodiazepine (Alprazolam, Clonazepam, etc.) | 5, Mood stabilizer (Lithium, Valproate, etc.) | 6, None | 7, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="substance_use_30days.choices" Name="substance_use_30days" DataType="text" redcap:Variable="substance_use_30days">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Unknown</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="baseline_suicidal_ideation.choices" Name="baseline_suicidal_ideation" DataType="text" redcap:Variable="baseline_suicidal_ideation">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="cleared_for_participation.choices" Name="cleared_for_participation" DataType="text" redcap:Variable="cleared_for_participation">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes (clinically appropriate)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No (safety contraindication identified)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_b1.choices" Name="pcl5_b1" DataType="text" redcap:Variable="pcl5_b1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_b2.choices" Name="pcl5_b2" DataType="text" redcap:Variable="pcl5_b2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_b3.choices" Name="pcl5_b3" DataType="text" redcap:Variable="pcl5_b3">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_b4.choices" Name="pcl5_b4" DataType="text" redcap:Variable="pcl5_b4">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_b5.choices" Name="pcl5_b5" DataType="text" redcap:Variable="pcl5_b5">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_c1.choices" Name="pcl5_c1" DataType="text" redcap:Variable="pcl5_c1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_c2.choices" Name="pcl5_c2" DataType="text" redcap:Variable="pcl5_c2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_d1.choices" Name="pcl5_d1" DataType="text" redcap:Variable="pcl5_d1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_d2.choices" Name="pcl5_d2" DataType="text" redcap:Variable="pcl5_d2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_d3.choices" Name="pcl5_d3" DataType="text" redcap:Variable="pcl5_d3">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_d4.choices" Name="pcl5_d4" DataType="text" redcap:Variable="pcl5_d4">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_d5.choices" Name="pcl5_d5" DataType="text" redcap:Variable="pcl5_d5">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_d6.choices" Name="pcl5_d6" DataType="text" redcap:Variable="pcl5_d6">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_d7.choices" Name="pcl5_d7" DataType="text" redcap:Variable="pcl5_d7">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_e1.choices" Name="pcl5_e1" DataType="text" redcap:Variable="pcl5_e1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_e2.choices" Name="pcl5_e2" DataType="text" redcap:Variable="pcl5_e2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_e3.choices" Name="pcl5_e3" DataType="text" redcap:Variable="pcl5_e3">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_e4.choices" Name="pcl5_e4" DataType="text" redcap:Variable="pcl5_e4">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_e5.choices" Name="pcl5_e5" DataType="text" redcap:Variable="pcl5_e5">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_e6.choices" Name="pcl5_e6" DataType="text" redcap:Variable="pcl5_e6">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="baseline_demographics_complete.choices" Name="baseline_demographics_complete" DataType="text" redcap:Variable="baseline_demographics_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sae_during_session.choices" Name="sae_during_session" DataType="text" redcap:Variable="sae_during_session">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sae_type_dosing.choices" Name="sae_type_dosing" DataType="text" redcap:Variable="sae_type_dosing">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Severe anxiety / panic attack</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Dissociation</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Dangerous / violent behavior</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Seizure</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Cardiac arrhythmia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Severe hypertension (&gt;180/120)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Suicidal thoughts / statements</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>Other</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sae_severity_dosing.choices" Name="sae_severity_dosing" DataType="text" redcap:Variable="sae_severity_dosing">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Mild (distressing but manageable)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Moderate (significantly distressing, required intervention)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Severe (dangerous or life-threatening)</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="intervention_given_dosing.choices" Name="intervention_given_dosing" DataType="boolean" redcap:Variable="intervention_given_dosing">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="intervention_details_dose.choices" Name="intervention_details_dose" DataType="text" redcap:Variable="intervention_details_dose">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="session_completed.choices" Name="session_completed" DataType="text" redcap:Variable="session_completed">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Session completed as planned</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Psilocybin terminated early due to safety</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dosing_day_session_complete.choices" Name="dosing_day_session_complete" DataType="text" redcap:Variable="dosing_day_session_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sae_since_contact.choices" Name="sae_since_contact" DataType="text" redcap:Variable="sae_since_contact">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sae_type_followup.choices" Name="sae_type_followup" DataType="text" redcap:Variable="sae_type_followup">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Panic / severe anxiety</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Dissociation lasting &gt;24hrs</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Self-harm behavior</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Suicidal ideation</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Hospitalization required</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Cardiac / medical emergency</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Persistent insomnia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>Severe physical symptoms</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Other</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sae_resolved_followup.choices" Name="sae_resolved_followup" DataType="text" redcap:Variable="sae_resolved_followup">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes (fully resolved)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No (ongoing)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Unkown</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="back_to_activities.choices" Name="back_to_activities" DataType="text" redcap:Variable="back_to_activities">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes - fully returned</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Partially returned</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>No - unable to return yet</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="safe_to_drive.choices" Name="safe_to_drive" DataType="text" redcap:Variable="safe_to_drive">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Uncertain</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="sub_use_since_session.choices" Name="sub_use_since_session" DataType="text" redcap:Variable="sub_use_since_session">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="followup_suicidal_ideation.choices" Name="followup_suicidal_ideation" DataType="text" redcap:Variable="followup_suicidal_ideation">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="safety_checkin_complete.choices" Name="safety_checkin_complete" DataType="text" redcap:Variable="safety_checkin_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_b1.choices" Name="pcl5_fu_b1" DataType="text" redcap:Variable="pcl5_fu_b1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_b2.choices" Name="pcl5_fu_b2" DataType="text" redcap:Variable="pcl5_fu_b2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_b3.choices" Name="pcl5_fu_b3" DataType="text" redcap:Variable="pcl5_fu_b3">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_b4.choices" Name="pcl5_fu_b4" DataType="text" redcap:Variable="pcl5_fu_b4">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_b5.choices" Name="pcl5_fu_b5" DataType="text" redcap:Variable="pcl5_fu_b5">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_c1.choices" Name="pcl5_fu_c1" DataType="text" redcap:Variable="pcl5_fu_c1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_c2.choices" Name="pcl5_fu_c2" DataType="text" redcap:Variable="pcl5_fu_c2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_d1.choices" Name="pcl5_fu_d1" DataType="text" redcap:Variable="pcl5_fu_d1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_d2.choices" Name="pcl5_fu_d2" DataType="text" redcap:Variable="pcl5_fu_d2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_d3.choices" Name="pcl5_fu_d3" DataType="text" redcap:Variable="pcl5_fu_d3">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_d4.choices" Name="pcl5_fu_d4" DataType="text" redcap:Variable="pcl5_fu_d4">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_d5.choices" Name="pcl5_fu_d5" DataType="text" redcap:Variable="pcl5_fu_d5">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_d6.choices" Name="pcl5_fu_d6" DataType="text" redcap:Variable="pcl5_fu_d6">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_d7.choices" Name="pcl5_fu_d7" DataType="text" redcap:Variable="pcl5_fu_d7">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_e1.choices" Name="pcl5_fu_e1" DataType="text" redcap:Variable="pcl5_fu_e1">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_e2.choices" Name="pcl5_fu_e2" DataType="text" redcap:Variable="pcl5_fu_e2">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_e3.choices" Name="pcl5_fu_e3" DataType="text" redcap:Variable="pcl5_fu_e3">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_e4.choices" Name="pcl5_fu_e4" DataType="text" redcap:Variable="pcl5_fu_e4">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_e5.choices" Name="pcl5_fu_e5" DataType="text" redcap:Variable="pcl5_fu_e5">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pcl5_fu_e6.choices" Name="pcl5_fu_e6" DataType="text" redcap:Variable="pcl5_fu_e6">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>A little bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderately</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Quite a bit</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Extremely</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="phq2_interest.choices" Name="phq2_interest" DataType="text" redcap:Variable="phq2_interest">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Several days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>More than half the days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Nearly every day</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="phq2_depressed.choices" Name="phq2_depressed" DataType="text" redcap:Variable="phq2_depressed">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Several days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>More than half the days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Nearly every day</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="global_improvement.choices" Name="global_improvement" DataType="text" redcap:Variable="global_improvement">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Much worse</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Worse</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>No change</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Better</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Much better</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ptsd_followup_assessment_complete.choices" Name="ptsd_followup_assessment_complete" DataType="text" redcap:Variable="ptsd_followup_assessment_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+<ClinicalData StudyOID="Project.VeteransPTSDPsilocybinSafetyTh" MetaDataVersionOID="Metadata.VeteransPTSDPsilocybinSafetyTh_2026-07-06_2135">
+	<SubjectData SubjectKey="1" redcap:RecordIdField="subject_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.baseline_demographics" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="baseline_demographics.subject_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="subject_id" Value="1"/>
+					<ItemData ItemOID="baseline_visit_date" Value="2026-07-06"/>
+					<ItemData ItemOID="age_years" Value="42"/>
+					<ItemData ItemOID="military_branch" Value="1"/>
+					<ItemData ItemOID="years_active_service" Value="8"/>
+					<ItemData ItemOID="ptsd_diagnosis_date" Value="2019-03-15"/>
+					<ItemData ItemOID="military_sexual_trauma" Value="2"/>
+					<ItemData ItemOID="prior_psychedelic_exposure" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="baseline_demographics.baseline_bp_systolic" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="baseline_bp_systolic" Value="135"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="baseline_demographics.baseline_bp_diastolic" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="baseline_bp_diastolic" Value="82"/>
+					<ItemData ItemOID="baseline_heart_rate" Value="72"/>
+					<ItemData ItemOID="baseline_temperature_f" Value="98.6"/>
+					<ItemData ItemOID="current_psych_meds___1" Value="1"/>
+					<ItemData ItemOID="current_psych_meds___2" Value="0"/>
+					<ItemData ItemOID="current_psych_meds___3" Value="0"/>
+					<ItemData ItemOID="current_psych_meds___4" Value="0"/>
+					<ItemData ItemOID="current_psych_meds___5" Value="0"/>
+					<ItemData ItemOID="current_psych_meds___6" Value="0"/>
+					<ItemData ItemOID="current_psych_meds___7" Value="0"/>
+					<ItemData ItemOID="substance_use_30days" Value="2"/>
+					<ItemData ItemOID="baseline_suicidal_ideation" Value="2"/>
+					<ItemData ItemOID="medical_contraindications" Value="No"/>
+					<ItemData ItemOID="cleared_for_participation" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="baseline_demographics.pcl5_b1" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pcl5_b1" Value="4"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="baseline_demographics.pcl5_b2" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pcl5_b2" Value="4"/>
+					<ItemData ItemOID="pcl5_b3" Value="4"/>
+					<ItemData ItemOID="pcl5_b4" Value="3"/>
+					<ItemData ItemOID="pcl5_b5" Value="2"/>
+					<ItemData ItemOID="pcl5_c1" Value="3"/>
+					<ItemData ItemOID="pcl5_c2" Value="3"/>
+					<ItemData ItemOID="pcl5_d1" Value="2"/>
+					<ItemData ItemOID="pcl5_d2" Value="2"/>
+					<ItemData ItemOID="pcl5_d3" Value="3"/>
+					<ItemData ItemOID="pcl5_d4" Value="3"/>
+					<ItemData ItemOID="pcl5_d5" Value="3"/>
+					<ItemData ItemOID="pcl5_d6" Value="2"/>
+					<ItemData ItemOID="pcl5_d7" Value="2"/>
+					<ItemData ItemOID="pcl5_e1" Value="3"/>
+					<ItemData ItemOID="pcl5_e2" Value="2"/>
+					<ItemData ItemOID="pcl5_e3" Value="3"/>
+					<ItemData ItemOID="pcl5_e4" Value="3"/>
+					<ItemData ItemOID="pcl5_e5" Value="2"/>
+					<ItemData ItemOID="pcl5_e6" Value="4"/>
+					<ItemData ItemOID="pcl5_baseline_total" Value="57"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="baseline_demographics.baseline_demographics_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="baseline_demographics_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.dosing_day_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="dosing_day_arm_1">
+			<FormData FormOID="Form.dosing_day_session" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="dosing_day_session.session_start_time" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="session_start_time" Value="2026-07-06T10:00"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="dosing_day_session.psilocybin_dose_mg" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="psilocybin_dose_mg" Value="25"/>
+					<ItemData ItemOID="session_start_bp_sys" Value="138"/>
+					<ItemData ItemOID="session_start_bp_dias" Value="84"/>
+					<ItemData ItemOID="session_start_hr" Value="75"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="dosing_day_session.sae_during_session" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="sae_during_session" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="dosing_day_session.dosing_day_session_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="dosing_day_session_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.postsession_day_1_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="postsession_day_1_arm_1">
+			<FormData FormOID="Form.safety_checkin" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="safety_checkin.days_post_session" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="days_post_session" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="safety_checkin.sae_since_contact" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="sae_since_contact" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="followup_bp_systolic" Value="132"/>
+					<ItemData ItemOID="followup_bp_diastolic" Value="80"/>
+					<ItemData ItemOID="followup_heart_rate" Value="68"/>
+					<ItemData ItemOID="back_to_activities" Value="2"/>
+					<ItemData ItemOID="safe_to_drive" Value="2"/>
+					<ItemData ItemOID="sub_use_since_session" Value="2"/>
+					<ItemData ItemOID="followup_suicidal_ideation" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="safety_checkin.safety_checkin_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="safety_checkin_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.ptsd_followup_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.pcl5_fu_b1" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pcl5_fu_b1" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.pcl5_fu_b2" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pcl5_fu_b2" Value="4"/>
+					<ItemData ItemOID="pcl5_fu_b3" Value="3"/>
+					<ItemData ItemOID="pcl5_fu_b4" Value="3"/>
+					<ItemData ItemOID="pcl5_fu_b5" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_c1" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_c2" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d1" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d2" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d3" Value="1"/>
+					<ItemData ItemOID="pcl5_fu_d4" Value="3"/>
+					<ItemData ItemOID="pcl5_fu_d5" Value="3"/>
+					<ItemData ItemOID="pcl5_fu_d6" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d7" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_e1" Value="3"/>
+					<ItemData ItemOID="pcl5_fu_e2" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_e3" Value="3"/>
+					<ItemData ItemOID="pcl5_fu_e4" Value="3"/>
+					<ItemData ItemOID="pcl5_fu_e5" Value="3"/>
+					<ItemData ItemOID="pcl5_fu_e6" Value="3"/>
+					<ItemData ItemOID="pcl5_followup_total" Value="51"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.phq2_interest" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="phq2_interest" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.phq2_depressed" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="phq2_depressed" Value="4"/>
+					<ItemData ItemOID="global_improvement" Value="4"/>
+					<ItemData ItemOID="subjective_benefit_notes" Value="I still feel the effects, everything feels calm but also a bit foggy. I&#039;m definitely less anxious than usual and I slept better last night than I have in months, and I didn&#039;t have any nightmares."/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.ptsd_followup_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="ptsd_followup_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.postsession_week_1_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="postsession_week_1_arm_1">
+			<FormData FormOID="Form.safety_checkin" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="safety_checkin.days_post_session" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="days_post_session" Value="7"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="safety_checkin.sae_since_contact" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="sae_since_contact" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="followup_bp_systolic" Value="132"/>
+					<ItemData ItemOID="followup_bp_diastolic" Value="80"/>
+					<ItemData ItemOID="followup_heart_rate" Value="68"/>
+					<ItemData ItemOID="back_to_activities" Value="2"/>
+					<ItemData ItemOID="safe_to_drive" Value="3"/>
+					<ItemData ItemOID="sub_use_since_session" Value="2"/>
+					<ItemData ItemOID="followup_suicidal_ideation" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="safety_checkin.safety_checkin_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="safety_checkin_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.ptsd_followup_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.pcl5_fu_b1" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pcl5_fu_b1" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.pcl5_fu_b2" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pcl5_fu_b2" Value="3"/>
+					<ItemData ItemOID="pcl5_fu_b3" Value="3"/>
+					<ItemData ItemOID="pcl5_fu_b4" Value="3"/>
+					<ItemData ItemOID="pcl5_fu_b5" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_c1" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_c2" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d1" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d2" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d3" Value="1"/>
+					<ItemData ItemOID="pcl5_fu_d4" Value="3"/>
+					<ItemData ItemOID="pcl5_fu_d5" Value="3"/>
+					<ItemData ItemOID="pcl5_fu_d6" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d7" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_e1" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_e2" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_e3" Value="3"/>
+					<ItemData ItemOID="pcl5_fu_e4" Value="3"/>
+					<ItemData ItemOID="pcl5_fu_e5" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_e6" Value="3"/>
+					<ItemData ItemOID="pcl5_followup_total" Value="48"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.phq2_interest" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="phq2_interest" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.phq2_depressed" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="phq2_depressed" Value="2"/>
+					<ItemData ItemOID="global_improvement" Value="4"/>
+					<ItemData ItemOID="subjective_benefit_notes" Value="I&#039;ve noticed some real changes. The constant buzzing in my head is quieter. My nightmares are less frequent, maybe 2 nights instead of every night. I&#039;m still processing a lot but in a different way and I&#039;m less angry overall."/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.ptsd_followup_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="ptsd_followup_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.postsession_month_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="postsession_month_arm_1">
+			<FormData FormOID="Form.safety_checkin" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="safety_checkin.days_post_session" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="days_post_session" Value="30"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="safety_checkin.sae_since_contact" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="sae_since_contact" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="followup_bp_systolic" Value="132"/>
+					<ItemData ItemOID="followup_bp_diastolic" Value="80"/>
+					<ItemData ItemOID="followup_heart_rate" Value="68"/>
+					<ItemData ItemOID="back_to_activities" Value="2"/>
+					<ItemData ItemOID="safe_to_drive" Value="1"/>
+					<ItemData ItemOID="sub_use_since_session" Value="2"/>
+					<ItemData ItemOID="followup_suicidal_ideation" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="safety_checkin.safety_checkin_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="safety_checkin_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.ptsd_followup_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.pcl5_fu_b1" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pcl5_fu_b1" Value="3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.pcl5_fu_b2" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pcl5_fu_b2" Value="3"/>
+					<ItemData ItemOID="pcl5_fu_b3" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_b4" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_b5" Value="1"/>
+					<ItemData ItemOID="pcl5_fu_c1" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_c2" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d1" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d2" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d3" Value="1"/>
+					<ItemData ItemOID="pcl5_fu_d4" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d5" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d6" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d7" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_e1" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_e2" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_e3" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_e4" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_e5" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_e6" Value="3"/>
+					<ItemData ItemOID="pcl5_followup_total" Value="41"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.phq2_interest" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="phq2_interest" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.phq2_depressed" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="phq2_depressed" Value="2"/>
+					<ItemData ItemOID="global_improvement" Value="4"/>
+					<ItemData ItemOID="subjective_benefit_notes" Value="I&#039;ve seen significant improvement. Yesterday, I went to my nephew&#039;s birthday party, the first family event I&#039;ve been able to handle in years. I still have some  triggers but they don&#039;t hijack me like before. Although it&#039;s moderately hard for me to fall asleep at a reasonable time, I do sleep through most nights now. My therapist says I&#039;m more open in sessions. It feels like I&#039;m starting to live again."/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.ptsd_followup_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="ptsd_followup_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.postsession_month_arm_1b" StudyEventRepeatKey="1" redcap:UniqueEventName="postsession_month_arm_1b">
+			<FormData FormOID="Form.safety_checkin" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="safety_checkin.days_post_session" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="days_post_session" Value="90"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="safety_checkin.sae_since_contact" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="sae_since_contact" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="followup_bp_systolic" Value="132"/>
+					<ItemData ItemOID="followup_bp_diastolic" Value="79"/>
+					<ItemData ItemOID="followup_heart_rate" Value="67"/>
+					<ItemData ItemOID="back_to_activities" Value="1"/>
+					<ItemData ItemOID="safe_to_drive" Value="1"/>
+					<ItemData ItemOID="sub_use_since_session" Value="2"/>
+					<ItemData ItemOID="followup_suicidal_ideation" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="safety_checkin.safety_checkin_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="safety_checkin_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.ptsd_followup_assessment" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.pcl5_fu_b1" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pcl5_fu_b1" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.pcl5_fu_b2" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="pcl5_fu_b2" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_b3" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_b4" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_b5" Value="1"/>
+					<ItemData ItemOID="pcl5_fu_c1" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_c2" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d1" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d2" Value="1"/>
+					<ItemData ItemOID="pcl5_fu_d3" Value="1"/>
+					<ItemData ItemOID="pcl5_fu_d4" Value="1"/>
+					<ItemData ItemOID="pcl5_fu_d5" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_d6" Value="1"/>
+					<ItemData ItemOID="pcl5_fu_d7" Value="1"/>
+					<ItemData ItemOID="pcl5_fu_e1" Value="1"/>
+					<ItemData ItemOID="pcl5_fu_e2" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_e3" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_e4" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_e5" Value="2"/>
+					<ItemData ItemOID="pcl5_fu_e6" Value="1"/>
+					<ItemData ItemOID="pcl5_followup_total" Value="32"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.phq2_interest" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="phq2_interest" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.phq2_depressed" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="phq2_depressed" Value="1"/>
+					<ItemData ItemOID="global_improvement" Value="5"/>
+					<ItemData ItemOID="subjective_benefit_notes" Value="This has been life-changing. My insomnia has improved and the nightmares are almost gone. I can drive on highways without gripping the steering wheel. I even started going to the VA gym with other veterans, which is something I couldn&#039;t do before. My marriage feels stronger because I no longer have outbursts. I still have hard days but they&#039;re 
+way more manageable now. Most of all, I feel like I got my sense of humor back. This is the first time in 8 years I feel like there&#039;s hope."/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="ptsd_followup_assessment.ptsd_followup_assessment_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="ptsd_followup_assessment_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+</ClinicalData>
+</ODM>
